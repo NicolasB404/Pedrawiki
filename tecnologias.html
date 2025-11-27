@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PREDAWIKI</title>
+</head>
+
+<body>
+    <main class="page">
+        <header class="header">
+            <a href="inicio.html"><img class="logo" src="https://i.ibb.co/R494t6mV/Preda-Wiki.jpg"
+                    alt="Logo Predawiki"></a>
+        </header>
+
+        <div class="separator"></div>
+
+        <div class="section-title">TECNOLOGIAS</div>
+
+        <section class="list" aria-label="Lista de tecnologias">
+            <div class="column">
+                <a class="item" href="#camuflagem-optica" aria-label="Camuflagem Óptica">
+                    <span class="arrow">-&gt;</span>
+                    <span>CAMUFLAGEM ÓPTICA</span>
+                </a>
+                <img class="category-image" src="https://i.ibb.co/PvG7hVPg/Predator-Cloaked.jpg" alt="Camuflagem Óptica">
+
+                <a class="item" href="#bio-mascara" aria-label="Bio Máscara">
+                    <span class="arrow">-&gt;</span>
+                    <span>BIO MÁSCARA</span>
+                </a>
+                <img class="category-image" src="https://i.ibb.co/XYZ1234/bio-mascara.jpg" alt="Bio Máscara">
+            </div>
+
+            <div class="column">
+                <a class="item" href="#armaduras-e-bio-materiais" aria-label="Armaduras e Bio Materiais">
+                    <span class="arrow">-&gt;</span>
+                    <span>ARMADURAS E BIO MATERIAIS</span>
+                </a>
+                <img class="category-image" src="https://i.ibb.co/XYZ1234/armaduras-bio-materiais.jpg" alt="Armaduras e Bio Materiais">
+
+                <a class="item" href="#tecnologia-genetica" aria-label="Tecnologia Genética">
+                    <span class="arrow">-&gt;</span>
+                    <span>TECNOLOGIA GENÉTICA</span>
+                </a>
+                <img class="category-image" src="https://i.ibb.co/XYZ1234/tecnologia-genetica.jpg" alt="Tecnologia Genética">
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
+
+<style>
+    :root {
+        --bg: rgba(0, 0, 0, 1);
+        --red: rgb(224, 0, 0);
+        --red-soft: rgb(176, 0, 0);
+        --text: rgb(224, 0, 0);
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        min-height: 100vh;
+        background: var(--bg);
+        color: var(--text);
+        font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    }
+
+    .page {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        padding: 36px 24px 80px;
+    }
+
+    .header {
+        width: 100%;
+        max-width: 980px;
+        margin: 0 auto 12px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .logo {
+        width: 200px;
+        height: auto;
+        flex: none;
+    }
+
+    .separator {
+        width: 100%;
+        max-width: 980px;
+        height: 2px;
+        background: var(--red);
+        box-shadow: 0 0 8px rgba(224, 0, 0, 0.35);
+        margin: 8px auto 28px;
+    }
+
+    .section-title {
+        width: 100%;
+        max-width: 980px;
+        margin: 0 auto 28px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .list {
+        width: 100%;
+        max-width: 980px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 48px;
+        row-gap: 18px;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 700;
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--text);
+        text-decoration: none;
+    }
+
+    .arrow {
+        color: var(--text);
+        font-weight: 900;
+        font-size: 30px;
+        flex: none;
+    }
+
+    .item:hover {
+        color: #ff2a2a;
+    }
+
+    .item:hover .arrow {
+        color: #ff2a2a;
+    }
+
+    .category-image {
+        width: 100%;
+        max-width: 460px;
+        max-height: 400px;
+        margin: 8px 0 24px;
+        border: 2px solid var(--red);
+        box-shadow: 0 0 12px rgba(224, 0, 0, 0.5);
+    }
+</style>
