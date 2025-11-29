@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PREDAWIKI</title>
+</head>
+
+<body>
+  <main class="page">
+    <header class="header">
+      <a href="inicio.html"><img class="logo" src="https://i.ibb.co/R494t6mV/Preda-Wiki.jpg" alt="Logo Predawiki"></a>
+      <div class="brand">PREDAWIKI</div>
+    </header>
+
+    <div class="separator"></div>
+
+    <div class="section-title">ALIEN VS. PREDADOR</div>
+
+    <div class="top-image">
+      <img class="wiki-image" src="https://i.ibb.co/Ftq7ctW/AVP-Alien-Vs-Predator.jpg" alt="Alien vs Predador (2004)">
+    </div>
+
+    <section class="content">
+      <p class="description">
+        <strong>Alien vs. Predador</strong> é um filme lançado em <strong>2004</strong>, dirigido por <strong>Paul W. S. Anderson</strong>. 
+        Ele marca o primeiro crossover oficial entre as franquias <strong>Alien</strong> e <strong>Predador</strong>. 
+        A trama se passa na Antártida, onde uma equipe de exploradores descobre uma pirâmide antiga que serve como campo de caça para os Yautjas, 
+        enquanto os <strong>Xenomorfos</strong> são usados como presas rituais. O filme mostra o confronto épico entre as duas espécies e a luta dos humanos pela sobrevivência.
+      </p>
+
+      <div class="info-block">
+        <h2>Informações principais</h2>
+        <ul>
+          <li><strong>Título:</strong> Alien vs. Predador</li>
+          <li><strong>Lançamento:</strong> 2004</li>
+          <li><strong>Direção:</strong> Paul W. S. Anderson</li>
+          <li><strong>Elenco principal:</strong> Sanaa Lathan, Lance Henriksen, Raoul Bova</li>
+          <li><strong>Ambientação:</strong> Pirâmide sob o gelo da Antártida</li>
+          <li><strong>Espécies em destaque:</strong> Yautjas (Predadores) e Xenomorfos (Aliens)</li>
+        </ul>
+      </div>
+
+      <div class="trivia">
+        <h2>Curiosidades</h2>
+        <ul>
+          <li>O filme foi inspirado em quadrinhos e jogos que já haviam explorado o encontro entre Aliens e Predadores.</li>
+          <li>Mostra pela primeira vez no cinema a relação ritualística dos Yautjas com os Xenomorfos.</li>
+          <li>A personagem Alexa Woods (Sanaa Lathan) se alia a um Predador para derrotar os Aliens.</li>
+          <li>Lance Henriksen interpreta Charles Bishop Weyland, conectando o filme à mitologia da corporação Weyland-Yutani da franquia Alien.</li>
+          <li>O sucesso do filme levou à sequência <em>Alien vs. Predador: Requiem</em> em 2007.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
+
+<style>
+  :root {
+    --bg: #000;
+    --red: rgb(224, 0, 0);
+    --text: rgb(224, 0, 0);
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Montserrat", Arial, sans-serif;
+    padding-bottom: 80px;
+  }
+
+  .page {
+    max-width: 980px;
+    margin: auto;
+    padding: 36px 24px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+
+  .logo {
+    width: 200px;
+    height: auto;
+  }
+
+  .brand {
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+
+  .separator {
+    height: 2px;
+    background: var(--red);
+    box-shadow: 0 0 8px rgba(224, 0, 0, 0.35);
+    margin: 8px 0 28px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 28px;
+  }
+
+  .top-image {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+
+  .wiki-image {
+    width: 100%;
+    max-width: 720px;
+    border: 2px solid var(--red);
+    box-shadow: 0 0 12px rgba(224, 0, 0, 0.5);
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .description {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .info-block ul,
+  .trivia ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .info-block h2,
+  .trivia h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+  }
+</style>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PREDAWIKI</title>
+</head>
+
+<body>
+  <main class="page">
+    <header class="header">
+      <a href="inicio.html"><img class="logo" src="https://i.ibb.co/R494t6mV/Preda-Wiki.jpg" alt="Logo Predawiki"></a>
+      <div class="brand">PREDAWIKI</div>
+    </header>
+
+    <div class="separator"></div>
+
+    <div class="section-title">TERRA</div>
+
+    <div class="top-image">
+      <img class="wiki-image" src="https://i.ibb.co/CpRFLcXp/images.jpg" alt="Terra">
+    </div>
+
+    <section class="content">
+      <p class="description">
+        A <strong>Terra</strong> é um dos principais cenários da franquia <strong>Predador</strong>. 
+        Desde o primeiro filme em 1987, o planeta é retratado como um campo de caça para os Yautjas, 
+        que visitam diferentes épocas e locais para testar suas habilidades contra os humanos. 
+        A diversidade de ambientes — selvas, cidades e até territórios históricos — faz da Terra um dos alvos preferidos dos caçadores alienígenas.
+      </p>
+
+      <div class="info-block">
+        <h2>Informações principais</h2>
+        <ul>
+          <li><strong>Primeira aparição:</strong> Predador (1987)</li>
+          <li><strong>Localizações marcantes:</strong> Selva da América Central, Los Angeles, planeta reserva de caça, territórios indígenas</li>
+          <li><strong>Importância:</strong> Planeta constantemente visitado pelos Yautjas em busca de presas dignas</li>
+          <li><strong>Habitantes:</strong> Humanos, considerados adversários desafiadores</li>
+          <li><strong>Conexões:</strong> Também aparece em crossovers com a franquia <strong>Alien</strong></li>
+        </ul>
+      </div>
+
+      <div class="trivia">
+        <h2>Curiosidades</h2>
+        <ul>
+          <li>No primeiro filme, a selva da América Central é usada como campo de caça.</li>
+          <li>Em <em>Predador 2</em>, os Yautjas caçam em Los Angeles durante uma guerra urbana.</li>
+          <li>Em <em>Prey (2022)</em>, a Terra é mostrada em 1719, durante o período indígena Comanche.</li>
+          <li>A Terra é considerada pelos Yautjas um planeta com grande diversidade de presas e ambientes.</li>
+          <li>Em alguns quadrinhos e jogos, os Predadores visitam diferentes épocas da história humana, como a Idade Média e o Japão feudal.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
+
+<style>
+  :root {
+    --bg: #000;
+    --red: rgb(224, 0, 0);
+    --text: rgb(224, 0, 0);
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Montserrat", Arial, sans-serif;
+    padding-bottom: 80px;
+  }
+
+  .page {
+    max-width: 980px;
+    margin: auto;
+    padding: 36px 24px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+
+  .logo {
+    width: 200px;
+    height: auto;
+  }
+
+  .brand {
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+
+  .separator {
+    height: 2px;
+    background: var(--red);
+    box-shadow: 0 0 8px rgba(224, 0, 0, 0.35);
+    margin: 8px 0 28px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 28px;
+  }
+
+  .top-image {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+
+  .wiki-image {
+    width: 100%;
+    max-width: 720px;
+    border: 2px solid var(--red);
+    box-shadow: 0 0 12px rgba(224, 0, 0, 0.5);
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .description {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .info-block ul,
+  .trivia ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .info-block h2,
+  .trivia h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+  }
+</style>

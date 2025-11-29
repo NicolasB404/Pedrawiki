@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PREDAWIKI</title>
+</head>
+
+<body>
+    <main class="page">
+
+        <a href="inicio.html"><img class="logo" src="https://i.ibb.co/R494t6mV/Preda-Wiki.jpg" alt="Logo Predawiki"></a>
+
+
+
+
+        <div class="separator"></div>
+
+
+        <div class="section-title">TÓPICOS E PÁGINAS</div>
+
+
+        <section class="grid" aria-label="Tópicos e páginas">
+            <div class="column">
+                <a class="item" href="filmes.html" aria-label="Filmes">
+                    <span class="arrow">-&gt;</span>
+                    <span>Filmes</span>
+                </a>
+                <a class="item" href="personagens.html" aria-label="Personagens">
+                    <span class="arrow">-&gt;</span>
+                    <span>Personagens</span>
+                </a>
+                <a class="item" href="predadores.html" aria-label="Predadores">
+                    <span class="arrow">-&gt;</span>
+                    <span>Predadores</span>
+                </a>
+            </div>
+
+
+            <div class="column">
+                <a class="item" href="planetas.html" aria-label="Planetas">
+                    <span class="arrow">-&gt;</span>
+                    <span>Planetas</span>
+                </a>
+                <a class="item" href="armas.html" aria-label="Armas">
+                    <span class="arrow">-&gt;</span>
+                    <span>Armas</span>
+                </a>
+                <a class="item" href="tecnologias.html" aria-label="Tecnologias">
+                    <span class="arrow">-&gt;</span>
+                    <span>Tecnologias</span>
+                </a>
+            </div>
+
+
+            <div class="column">
+                <a class="item" href="trofeuscacadas.html" aria-label="Troféus">
+                    <span class="arrow">-&gt;</span>
+                    <span>Troféus e Caçadas</span>
+                </a>
+                <a class="item" href="crossovers.html" aria-label="Crossovers">
+                    <span class="arrow">-&gt;</span>
+                    <span>Crossovers</span>
+                </a>
+                 <a class="item" href="humanos.html" aria-label="Humanos">
+                    <span class="arrow">-&gt;</span>
+                    <span>Humanos</span>
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
+<style>
+    :root {
+        --bg: rgba(0, 0, 0, 1);
+        --red: rgb(224, 0, 0);
+        --red-soft: rgb(176, 0, 0);
+        --text: rgb(224, 0, 0);
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        height: 100%;
+        background: var(--bg);
+        color: var(--text);
+        font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    }
+
+
+    .page {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 24px 80px;
+    }
+
+
+    .logo {
+        width: 300px;
+        height: auto;
+        margin-bottom: 22px;
+    }
+
+
+    .separator {
+        width: 100%;
+        max-width: 980px;
+        height: 2px;
+        background: var(--red);
+        box-shadow: 0 0 8px rgba(224, 0, 0, 0.35);
+        margin: 16px auto 32px;
+    }
+
+
+    .section-title {
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        font-size: 22px;
+        margin-bottom: 28px;
+        text-align: center;
+    }
+
+    .grid {
+        width: 100%;
+        max-width: 980px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 38px;
+        row-gap: 18px;
+    }
+
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+
+    .item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--text);
+        text-decoration: none;
+    }
+
+    .arrow {
+        color: var(--text);
+        font-weight: 900;
+        font-size: 18px;
+        flex: none;
+    }
+
+
+    .item:hover {
+        color: #ff2a2a;
+    }
+
+    .item:hover .arrow {
+        color: #ff2a2a;
+    }
+</style>
